@@ -1,0 +1,20 @@
+whil cloning a repository from git it creates two different files in local machine one is local repository 
+and another one is working file, 
+
+If we create any file or folder in the same repo while working means it will be created in local file,
+
+1. --> git init --> to initialize the current folder in git
+2. --> git status --> this is to check whether the file is moved to staging or not 
+        it must show as Unranked Files:
+
+3. --> while file is in working folder git status will show untracked
+    --> add file -> now first we have to move that file git staging  -> (git add fileName)
+        
+    --> commit file -> then we have to to move that file to local repository -> (git commit -m "commit message")
+        
+    --> push file -> after doing all this we have to use push tthis to main (online) repository 
+            -> (git push origin main) -> this tells to push the file to origin (to the storage of same url 
+                which we used to clone and in thee main branch)
+
+
+
