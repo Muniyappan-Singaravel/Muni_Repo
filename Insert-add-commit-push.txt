@@ -17,4 +17,13 @@ If we create any file or folder in the same repo while working means it will be 
                 which we used to clone and in thee main branch)
 
 
+Now lets do some modification in this ssame file.
+        And also know it will get updates in original file in GitHub.
+
+now this is modified file
+        To update this in a original GitHub file  follw the same procedure.
+        git add file name --> this moves updated file to staging area
+        git commit -m commit message --> this moves updated file to local repository
+        git push main origin --> this moves updated file to GitHub repository
+
 
