@@ -24,6 +24,16 @@ now this is modified file
         To update this in a original GitHub file  follw the same procedure.
         git add file name --> this moves updated file to staging area
         git commit -m commit message --> this moves updated file to local repository
-        git push main origin --> this moves updated file to GitHub repository
+        git push origin main --> this moves updated file to GitHub repository
 
+Delate File:
+        Deleting a file from working repository, and then you want to delete the same file from 
+        local repo and also from Git repo means, then we have to follow the same procedure
+
+        1st -> delete the file here in IDE
+        2nd -> git add file name --> this moves updated repository (deleted one) to a staging area
+        3rd -> git commit -m "commit message" --> this updates deletion in local repo
+        4th -> git push origin main --> this updates the delete operation in git repo
+
+        
 
