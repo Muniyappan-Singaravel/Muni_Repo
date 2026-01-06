@@ -1,0 +1,13 @@
+This file is created in GItHub, 
+now i want this same file in my local and working repositiory
+
+Already i have cloned this repository to my local system, except this file i have all files of this repository in my local repo
+to gat this particular file again I dont want to clone this cause it will download all files, so to avoid this siply i can just use pull command
+
+git pull --> this downloads only new or updated file to the local machine
+
+1st -> use add file option to create new file in github
+2nd -> name your file with proper extension
+3rd -> write your file
+4th -> use commit changes to commit the file with commit message
+5th -> git pull --> use this in terminal to download or pull only new or updated file from github repo to local 
